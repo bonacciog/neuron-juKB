@@ -10,11 +10,6 @@ LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
 WORKDIR app
 
-# python 3.7
-RUN apt-get update && add-apt-repository ppa:deadsnakes/ppa && \
-    apt install python3.7
-
-
 RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
     build-essential \
