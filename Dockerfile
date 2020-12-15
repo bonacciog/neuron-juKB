@@ -4,11 +4,16 @@
 # Copyright (c) 2020 Loreto Parisi
 #
 
-FROM python:3.7.4-slim-buster
+FROM FROM ubuntu:18.04
 
 LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
 WORKDIR app
+
+# python 3.7
+RUN apt-get update && add-apt-repository ppa:deadsnakes/ppa && \
+    apt install python3.7
+
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
@@ -16,6 +21,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     wget \
     gpg
+
+# jupyter
+RUN pip install jupyterlab && \
+    pip install notebook
 
 # pip config
 RUN mkdir ~/.pip/ && \
@@ -40,4 +49,6 @@ RUN pip install neuron-cc[tensorflow] && \
     pip install torchvision==0.4.0 && \
     pip install torch-neuron
 
-CMD ["bash"]
+ENV NB_PREFIX /
+
+CMD ["sh","-c", "jupyter notebook --notebook-dir=/home/jovyan --ip=0.0.0.0 --no-browser --allow-root --port=8888 --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin='*' --NotebookApp.base_url=${NB_PREFIX}"]
