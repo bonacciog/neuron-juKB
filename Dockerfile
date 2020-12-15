@@ -4,7 +4,7 @@
 # Copyright (c) 2020 Loreto Parisi
 #
 
-FROM FROM ubuntu:18.04
+FROM ubuntu:18.04
 
 LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
