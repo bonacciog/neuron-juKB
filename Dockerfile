@@ -22,9 +22,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     gpg
 
+
 # jupyter
 RUN pip install jupyterlab && \
     pip install notebook
+
 
 # pip config
 RUN mkdir ~/.pip/ && \
@@ -33,9 +35,11 @@ RUN mkdir ~/.pip/ && \
     echo extra-index-url = https://pip.repos.neuron.amazonaws.com >> ~/.pip/pip.conf && \
     cat ~/.pip/pip.conf
 
+
 # wheels
 RUN pip download --no-deps neuron-cc && \
     wget https://pip.repos.neuron.amazonaws.com/neuron-cc/neuron_cc-1.0.24045.0%2B13ab1a114-cp37-cp37m-linux_x86_64.whl
+
 
 # tensorflow
 RUN pip install neuron-cc && \
@@ -43,11 +47,14 @@ RUN pip install neuron-cc && \
     pip install tensorboard-neuron && \
     tensorboard_neuron -h | grep run_neuron_profile
 
+
 # pytorch
 RUN pip install neuron-cc[tensorflow] && \
     pip install torch && \
     pip install torchvision==0.4.0 && \
     pip install torch-neuron
+
+# Kubeflow config
 
 ENV NB_PREFIX /
 
