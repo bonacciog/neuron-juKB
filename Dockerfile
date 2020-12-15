@@ -19,8 +19,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 
 # jupyter
-RUN pip install jupyterlab && \
-    pip install notebook
+#RUN pip install jupyterlab && \
+#    pip install notebook
 
 
 # pip config
