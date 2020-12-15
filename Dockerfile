@@ -4,7 +4,7 @@
 # Copyright (c) 2020 Loreto Parisi
 #
 
-FROM ubuntu:18.04
+FROM python:3.7.4-slim-buster
 
 LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
