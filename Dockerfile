@@ -4,11 +4,13 @@
 # Copyright (c) 2020 Loreto Parisi
 #
 
-FROM python:3.7.4-slim-buster
+FROM ubuntu:18.04
 
 LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
 WORKDIR app
+
+
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
@@ -17,6 +19,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     gpg
 
+RUN apt install python3.7
 
 # jupyter
 #RUN pip install jupyterlab && \
