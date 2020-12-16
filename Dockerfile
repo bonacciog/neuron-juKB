@@ -35,22 +35,22 @@ RUN mkdir ~/.pip/ && \
 
 
 # wheels
-RUN pip download --no-deps neuron-cc && \
+RUN pip3 download --no-deps neuron-cc && \
     wget https://pip.repos.neuron.amazonaws.com/neuron-cc/neuron_cc-1.0.24045.0%2B13ab1a114-cp37-cp37m-linux_x86_64.whl
 
 
 # tensorflow
-RUN pip install neuron-cc && \
-    pip install tensorflow-neuron && \
-    pip install tensorboard-neuron && \
+RUN pip3 install neuron-cc && \
+    pip3 install tensorflow-neuron && \
+    pip3 install tensorboard-neuron && \
     tensorboard_neuron -h | grep run_neuron_profile
 
 
 # pytorch
-RUN pip install neuron-cc[tensorflow] && \
-    pip install torch && \
-    pip install torchvision==0.4.0 && \
-    pip install torch-neuron
+RUN pip3 install neuron-cc[tensorflow] && \
+    pip3 install torch && \
+    pip3 install torchvision==0.4.0 && \
+    pip3 install torch-neuron
 
 # Kubeflow config
 
