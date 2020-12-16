@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     gpg
 
-RUN apt install python3.7
+RUN apt -y install python3.7
 
 # jupyter
 #RUN pip install jupyterlab && \
