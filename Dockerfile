@@ -40,6 +40,6 @@ RUN pip install neuron-cc[tensorflow] && \
     pip install torchvision==0.4.0 && \
     pip install torch-neuron
 
+ENV NB_PREFIX /
 
-
-CMD ["sh","-c", "jupyter notebook --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin='*'"]
+CMD ["sh","-c", "jupyter notebook --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin='*'  --NotebookApp.base_url=${NB_PREFIX}"]
