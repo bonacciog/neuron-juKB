@@ -40,6 +40,7 @@ RUN pip install neuron-cc[tensorflow] && \
     pip install torchvision==0.4.0 && \
     pip install torch-neuron
 
+# Kubeflow config
 # jupyter
 RUN pip install jupyterlab
 
