@@ -8,7 +8,7 @@ FROM python:3.7.4-slim-buster
 
 LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
-WORKDIR app
+WORKDIR .
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
@@ -46,4 +46,4 @@ RUN pip install jupyterlab
 
 ENV NB_PREFIX /
 
-CMD ["sh","-c", "jupyter notebook --notebook-dir=/app --ip=0.0.0.0 --no-browser --allow-root --port=8888 --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin='*' --NotebookApp.base_url=${NB_PREFIX}"]
+CMD ["sh","-c", "jupyter notebook --notebook-dir=/home/jovyan --ip=0.0.0.0 --no-browser --allow-root --port=8888 --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.allow_origin='*' --NotebookApp.base_url=${NB_PREFIX}"]
