@@ -8,7 +8,7 @@ FROM python:3.7.4-slim-buster
 
 LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
-WORKDIR .
+WORKDIR app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
@@ -28,25 +28,26 @@ RUN mkdir ~/.pip/ && \
 RUN pip download --no-deps neuron-cc && \
     wget https://pip.repos.neuron.amazonaws.com/neuron-cc/neuron_cc-1.0.24045.0%2B13ab1a114-cp37-cp37m-linux_x86_64.whl
 
-# tensorflow
+
+# tensorflow & pytorch supported by neuron-sdk
+RUN pip install torch==1.5.1 && \
+    tensorflow=1.15.0
+
+# neuron tensorflow
 RUN pip install neuron-cc && \
     pip install tensorflow-neuron && \
     pip install tensorboard-neuron && \
     tensorboard_neuron -h | grep run_neuron_profile
+
+# neuron torch
+RUN pip install neuron-cc[tensorflow] && \
+    pip install torch-neuron
 
 # app requirements
 COPY src/requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 RUN apt-get update && apt-get install -y \
     libsndfile1
-
-# pytorch
-RUN pip install neuron-cc[tensorflow] && \
-    pip install torch && \
-    pip install torchvision==0.4.0 && \
-    pip install torch-neuron
-
-
 
 # Kubeflow config
 # jupyter

@@ -1,0 +1,95 @@
+Analyzing artist: Generated_LM3
+Analyzing artist: Redrama
+Analyzing artist: Generated_gpt2
+Analyzing artist: Dataset
+Analyzing artist: Generated_LM1
+Analyzing artist: Paleface
+Analyzing artist: Generated_LM4
+Analyzing artist: Gpt2_onlyrap50k
+
+Best rhymes
+Longest rhyme (l=9): 
+ naU Dat aI seI aIl b | i: haNI2N haNI2N
+
+ t@naIt t@naI|t t@na | It t@naIt
+ t@naIts D@2 naIt aI|m 
+Another one it might be the night.
+It's gonna be it's going to be hard.
+For you and all your friends to get along without no clothes.
+It will be it's going to be hard.
+.
+lyrics_en/Generated_gpt2/First_train/generated_samples5.txt
+
+Longest rhyme (l=10): 
+ D@2 saUnd s | eIIN Its t2aIm t@ groU
+ strON
+ aI| roUt poU | Imz
+ ni:dI#d a# bi:t t@ floU @p0n
+ and DI|s 
+The sound saying it's time to grow.
+Strong.
+I wrote poems.
+Needed a beat to flow upon.
+And this is what it sounds like....
+.
+lyrics_en/Redrama/Everyday_Soundtrack_y2003y/This_Is_What_It_Sounds_Like.txt
+
+Longest rhyme (l=10): 
+ ImakjUl@t t | i:m
+ paS@n@tli rapIN
+ kats a# bi: paasI|N D@2 wi:d rI2laksIN
+ wi: Dat klasIk rap S | It laIk D@2 bakspIn akS@n
+ aIm aaskI|N 
+Capacity for audacity that a be me and my collaborate the.
+immaculate team.
+Passionately rapping.
+cats a be passing the weed relaxing.
+We that classic rap shit like the backspin action.
+I'm asking When did.
+lyrics_en/Redrama/Everyday_Soundtrack_y2003y/Knuckleheadz.txt
+
+Longest rhyme (l=11): 
+ and s | Ent mi: bak at Eni deI
+ If DeI| sEt It fri:
+ dI2s | End It az a# geIm
+
+ DeIv bIn rEdi| 
+As we approach the table within.
+You're the beginning of the end.
+.
+I won't let go.
+I cannot let go.
+lan sheep by the lake.
+lyrics_en/Generated_LM4/LM/40kwords_model4_aftersed.txt
+
+Longest rhyme (l=14): 
+ aIl pUt ju: In a# tSoUkh | oUld goU loUkoU goU loUkoU| goU loUkoU
+ aIl pUl a# trak Of a# S | oU SoU SoU SoU SoU SoU SoU|
+
+Hey mamacita hey mamacita hey.
+Drip too hard don't drown off this wave drip.
+She told me to handcuff her give her no escape.
+lyrics_en/Dataset/50k_onlyrap/all_lyrics_50k_enrap.txt
+
+
+Best songs:
+1.500	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/Knuckleheadz.txt
+1.488	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/A_Day_At_A_Time.txt
+1.473	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/Kill_It_With_Hip_Hop.txt
+1.441	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/Babylon.txt
+1.363	lyrics_en/Redrama/The_Getaway_y2009y/The_Getaway.txt
+1.330	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/If_You_With_That.txt
+1.319	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/Everyday_Soundtrack.txt
+1.303	lyrics_en/Paleface/Quarter_Past_y2003y/Paleface_Colgate_Soulmate.txt
+1.298	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/You.txt
+1.289	lyrics_en/Redrama/Everyday_Soundtrack_y2003y/Stand_Strong.txt
+
+Best artists:
+1.	1.177	Redrama
+2.	1.148	Paleface
+3.	1.038	Dataset
+4.	0.993	Generated LM4
+5.	0.991	Gpt2 onlyrap50k
+6.	0.965	Generated LM1
+7.	0.963	Generated gpt2
+8.	0.955	Generated LM3

@@ -1,0 +1,3 @@
+py-stringmatching
+phonetics
+matplotlib

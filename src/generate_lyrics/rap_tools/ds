@@ -1,0 +1,333 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 120060  6284 ?        Ss   Oct08   0:10 /sbin/init nosplash
+root         2  0.0  0.0      0     0 ?        S    Oct08   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Oct08   0:03 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/0:0H]
+root         7  0.1  0.0      0     0 ?        S    Oct08   7:32 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Oct08   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Oct08   0:02 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    Oct08   0:01 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    Oct08   0:03 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    Oct08   0:01 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    Oct08   0:02 [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    Oct08   0:01 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    Oct08   0:02 [ksoftirqd/3]
+root        25  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/3:0H]
+root        26  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/4]
+root        27  0.0  0.0      0     0 ?        S    Oct08   0:01 [migration/4]
+root        28  0.0  0.0      0     0 ?        S    Oct08   0:03 [ksoftirqd/4]
+root        30  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/4:0H]
+root        31  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/5]
+root        32  0.0  0.0      0     0 ?        S    Oct08   0:01 [migration/5]
+root        33  0.0  0.0      0     0 ?        S    Oct08   0:02 [ksoftirqd/5]
+root        35  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/5:0H]
+root        36  0.0  0.0      0     0 ?        S    Oct08   0:02 [watchdog/6]
+root        37  0.0  0.0      0     0 ?        S    Oct08   0:03 [migration/6]
+root        38  0.0  0.0      0     0 ?        S    Oct08   0:03 [ksoftirqd/6]
+root        40  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/6:0H]
+root        41  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/7]
+root        42  0.0  0.0      0     0 ?        S    Oct08   0:04 [migration/7]
+root        43  0.0  0.0      0     0 ?        S    Oct08   0:02 [ksoftirqd/7]
+root        45  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/7:0H]
+root        46  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/8]
+root        47  0.0  0.0      0     0 ?        S    Oct08   0:04 [migration/8]
+root        48  0.0  0.0      0     0 ?        S    Oct08   0:02 [ksoftirqd/8]
+root        50  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/8:0H]
+root        51  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/9]
+root        52  0.0  0.0      0     0 ?        S    Oct08   0:04 [migration/9]
+root        53  0.0  0.0      0     0 ?        S    Oct08   0:02 [ksoftirqd/9]
+root        55  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/9:0H]
+root        56  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/10]
+root        57  0.0  0.0      0     0 ?        S    Oct08   0:04 [migration/10]
+root        58  0.0  0.0      0     0 ?        S    Oct08   0:03 [ksoftirqd/10]
+root        60  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/10:0H]
+root        61  0.0  0.0      0     0 ?        S    Oct08   0:00 [watchdog/11]
+root        62  0.0  0.0      0     0 ?        S    Oct08   0:04 [migration/11]
+root        63  0.0  0.0      0     0 ?        S    Oct08   0:02 [ksoftirqd/11]
+root        65  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/11:0H]
+root        66  0.0  0.0      0     0 ?        S    Oct08   0:00 [kdevtmpfs]
+root        67  0.0  0.0      0     0 ?        S<   Oct08   0:00 [netns]
+root        68  0.0  0.0      0     0 ?        S<   Oct08   0:00 [perf]
+root        69  0.0  0.0      0     0 ?        S    Oct08   0:00 [khungtaskd]
+root        70  0.0  0.0      0     0 ?        S<   Oct08   0:00 [writeback]
+root        71  0.0  0.0      0     0 ?        SN   Oct08   0:00 [ksmd]
+root        72  0.0  0.0      0     0 ?        SN   Oct08   0:04 [khugepaged]
+root        73  0.0  0.0      0     0 ?        S<   Oct08   0:00 [crypto]
+root        74  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kintegrityd]
+root        75  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root        76  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kblockd]
+root        77  0.0  0.0      0     0 ?        S<   Oct08   0:00 [ata_sff]
+root        78  0.0  0.0      0     0 ?        S<   Oct08   0:00 [md]
+root        79  0.0  0.0      0     0 ?        S<   Oct08   0:00 [devfreq_wq]
+root        81  0.0  0.0      0     0 ?        S    Oct08   0:05 [kworker/0:1]
+root        84  0.0  0.0      0     0 ?        S    Oct08   0:00 [kswapd0]
+root        85  0.0  0.0      0     0 ?        S<   Oct08   0:00 [vmstat]
+root        86  0.0  0.0      0     0 ?        S    Oct08   0:00 [fsnotify_mark]
+root        87  0.0  0.0      0     0 ?        S    Oct08   0:00 [ecryptfs-kthrea]
+root       103  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kthrotld]
+root       104  0.0  0.0      0     0 ?        S<   Oct08   0:00 [acpi_thermal_pm]
+root       105  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       106  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       107  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       108  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       109  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       110  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       111  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       112  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       118  0.0  0.0      0     0 ?        S<   Oct08   0:00 [ipv6_addrconf]
+root       131  0.0  0.0      0     0 ?        S<   Oct08   0:00 [deferwq]
+root       132  0.0  0.0      0     0 ?        S<   Oct08   0:00 [charger_manager]
+root       186  0.0  0.0      0     0 ?        S<   Oct08   0:00 [firewire]
+root       187  0.0  0.0      0     0 ?        S<   Oct08   0:00 [firewire_ohci]
+root       190  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kpsmoused]
+root       227  0.0  0.0      0     0 ?        S    Oct08   0:00 [kworker/11:1]
+root       228  0.0  0.0      0     0 ?        S    Oct08   0:00 [nvidia-modeset]
+root       229  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_0]
+root       230  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_0]
+root       231  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_1]
+root       232  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_1]
+root       233  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_2]
+root       234  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_2]
+root       235  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_3]
+root       236  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_3]
+root       237  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_4]
+root       238  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_4]
+root       239  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_5]
+root       240  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_5]
+root       244  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_6]
+root       245  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_6]
+root       248  0.0  0.0      0     0 ?        S    Oct08   0:00 [scsi_eh_7]
+root       249  0.0  0.0      0     0 ?        S<   Oct08   0:00 [scsi_tmf_7]
+root       252  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       335  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/5:1H]
+root       345  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kdmflush]
+root       378  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       379  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kcryptd_io]
+root       380  0.0  0.0      0     0 ?        S<   Oct08   0:01 [kcryptd]
+root       381  0.0  0.0      0     0 ?        S    Oct08   3:04 [dmcrypt_write]
+root       382  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       392  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kdmflush]
+root       394  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       397  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kdmflush]
+root       398  0.0  0.0      0     0 ?        S<   Oct08   0:00 [bioset]
+root       427  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/0:1H]
+root       431  0.0  0.0      0     0 ?        S    Oct08   0:12 [jbd2/dm-1-8]
+root       432  0.0  0.0      0     0 ?        S<   Oct08   0:00 [ext4-rsv-conver]
+root       484  0.0  0.0      0     0 ?        S    Oct08   0:00 [kauditd]
+root       489  0.0  0.0  43588 14488 ?        Ss   Oct08   0:03 /lib/systemd/systemd-journald
+root       525  0.0  0.0      0     0 ?        S<   Oct08   0:00 [rpciod]
+root       528  0.0  0.0 168504  1568 ?        Ss   Oct08   0:00 /sbin/lvmetad -f
+root       551  0.0  0.0  45000  4272 ?        Ss   Oct08   0:00 /lib/systemd/systemd-udevd
+root       602  0.0  0.0      0     0 ?        S    Oct08   0:00 [irq/46-mei_me]
+root       622  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/6:1H]
+root       638  0.0  0.0      0     0 ?        S<   Oct08   0:00 [edac-poller]
+root       658  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kvm-irqfd-clean]
+root       713  0.0  0.0      0     0 ?        S<   Oct08   0:00 [led_workqueue]
+root       775  0.0  0.0      0     0 ?        S    Oct08   0:00 [UVM global queu]
+root       777  0.0  0.0      0     0 ?        S    Oct08   0:00 [UVM Tools Event]
+root       793  0.0  0.0      0     0 ?        S    Oct08   0:58 [irq/50-nvidia]
+root       794  0.0  0.0      0     0 ?        S    Oct08   0:00 [nvidia]
+root       824  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/9:1H]
+root       836  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/8:1H]
+root       837  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/3:1H]
+root       849  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/7:1H]
+root       862  0.0  0.0      0     0 ?        S<   Oct08   0:00 [ext4-rsv-conver]
+root       878  0.0  0.0      0     0 ?        S<   Oct08   0:02 [kworker/4:1H]
+systemd+   921  0.0  0.0 102384  2552 ?        Ssl  Oct08   0:00 /lib/systemd/systemd-timesyncd
+root      1061  0.0  0.0   4396  1212 ?        Ss   Oct08   0:00 /usr/sbin/acpid
+root      1076  0.0  0.0 337424  8676 ?        Ssl  Oct08   0:00 /usr/sbin/ModemManager
+message+  1078  0.0  0.0  44288  5188 ?        Ss   Oct08   0:11 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1081  0.0  0.0  17148  1604 ?        Ss   Oct08   0:00 /usr/bin/nvidia-persistenced --user root --no-persistence-mode --verbose
+root      1091  0.0  0.0 449056 15892 ?        Ssl  Oct08   0:02 /usr/sbin/NetworkManager --no-daemon
+root      1107  0.0  0.0  29012  3000 ?        Ss   Oct08   0:00 /usr/sbin/cron -f
+root      1113  0.0  0.0 275988  6592 ?        Ssl  Oct08   0:04 /usr/lib/accountsservice/accounts-daemon
+eth-user  1116  0.0  0.0  27516  2828 ?        Ss   Oct10   0:00 SCREEN -S shuffle_nopretrain
+eth-user  1117  0.0  0.0  23268  5568 pts/14   Ss+  Oct10   0:00 /bin/bash
+root      1125  0.0  0.0  28632  3264 ?        Ss   Oct08   0:02 /lib/systemd/systemd-logind
+syslog    1131  0.0  0.0 256392  5328 ?        Ssl  Oct08   0:00 /usr/sbin/rsyslogd -n
+avahi     1136  0.3  0.0  46116  4916 ?        Ss   Oct08  16:36 avahi-daemon: running [deepblue.local]
+root      1140  0.1  0.2 1642856 78580 ?       Ssl  Oct08   7:29 /usr/bin/dockerd -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock --storage-driver overlay2 --tlsverify --tlscacert /etc/docker/ca.pem --tlscert /etc/docker/server.pem --tlskey /etc/docker/server-key.pem --label provider=generic
+avahi     1167  0.0  0.0  44784   340 ?        S    Oct08   0:00 avahi-daemon: chroot helper
+root      1177  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/1:1H]
+root      1178  0.0  0.0      0     0 ?        S<   Oct08   0:00 [kworker/2:1H]
+root      1207  0.0  0.0  19584  2132 ?        Ss   Oct08   0:12 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root      1256  0.0  0.0 281876  8720 ?        Ssl  Oct08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1272  0.0  0.0 350408  6276 ?        SLsl Oct08   0:00 /usr/sbin/lightdm
+paolo.m+  1294  0.0  0.1 667012 43256 ?        Sl   13:12   0:00 /home/paolo.magnani/.vscode-server/bin/9df03c6d6ce97c6645c5846f6dfa2a6a7d276515/node /home/paolo.magnani/.vscode-server/extensions/ms-python.python-2019.10.41019/out/client/debugger/debugAdapter/main.js
+root      1306  0.0  0.2 251296 67332 tty7     Ss+  Oct08   0:22 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+paolo.m+  1328  0.0  0.0  22684  5344 pts/2    Ss+  13:12   0:00 /bin/bash
+mysql     1384  0.0  0.4 1173520 158224 ?      Ssl  Oct08   2:13 /usr/sbin/mysqld
+root      1458  0.0  0.0 214804 24912 ?        Ss   Oct08   0:08 php-fpm: master process (/etc/php/7.0/fpm/php-fpm.conf)
+root      1472  0.0  0.0  17072   160 ?        Ss   Oct08   0:00 unifi -cwd /usr/lib/unifi -home /usr/lib/jvm/java-8-oracle/jre -cp /usr/share/java/commons-daemon.jar:/usr/lib/unifi/lib/ace.jar -pidfile /var/run/unifi.pid -procname unifi -outfile SYSLOG -errfile SYSLOG -umask 027 -user unifi -Dunifi.datadir=/var/lib/unifi -Dunifi.logdir=/var/log/unifi -Dunifi.rundir=/var/run/unifi -Xmx1024M -Djava.awt.headless=true -Dfile.encoding=UTF-8 com.ubnt.ace.Launcher start
+root      1473  0.0  0.0  17072   160 ?        S    Oct08   0:00 unifi -cwd /usr/lib/unifi -home /usr/lib/jvm/java-8-oracle/jre -cp /usr/share/java/commons-daemon.jar:/usr/lib/unifi/lib/ace.jar -pidfile /var/run/unifi.pid -procname unifi -outfile SYSLOG -errfile SYSLOG -umask 027 -user unifi -Dunifi.datadir=/var/lib/unifi -Dunifi.logdir=/var/log/unifi -Dunifi.rundir=/var/run/unifi -Xmx1024M -Djava.awt.headless=true -Dfile.encoding=UTF-8 com.ubnt.ace.Launcher start
+unifi     1474  0.0  0.6 4042584 202724 ?      Sl   Oct08   2:23 unifi -cwd /usr/lib/unifi -home /usr/lib/jvm/java-8-oracle/jre -cp /usr/share/java/commons-daemon.jar:/usr/lib/unifi/lib/ace.jar -pidfile /var/run/unifi.pid -procname unifi -outfile SYSLOG -errfile SYSLOG -umask 027 -user unifi -Dunifi.datadir=/var/lib/unifi -Dunifi.logdir=/var/log/unifi -Dunifi.rundir=/var/run/unifi -Xmx1024M -Djava.awt.headless=true -Dfile.encoding=UTF-8 com.ubnt.ace.Launcher start
+www-data  1476  0.0  0.0 214804  6312 ?        S    Oct08   0:00 php-fpm: pool www
+www-data  1477  0.0  0.0 214804  6312 ?        S    Oct08   0:00 php-fpm: pool www
+root      1478  0.1  0.1 1582672 42404 ?       Ssl  Oct08   6:37 docker-containerd --config /var/run/docker/containerd/containerd.toml
+root      1527  0.0  0.0  65512  6248 ?        Ss   Oct08   0:00 /usr/sbin/sshd -D
+root      1781  0.2  0.0      0     0 ?        S    Oct08   8:46 [irq/51-nvidia]
+root      1782  0.0  0.0      0     0 ?        S    Oct08   0:00 [nvidia]
+unifi     1815  0.6  3.0 8958292 987204 ?      Sl   Oct08  27:48 /usr/lib/jvm/java-8-oracle/jre/bin/java -Dfile.encoding=UTF-8 -Djava.awt.headless=true -Dapple.awt.UIElement=true -Xmx1024M -XX:+ExitOnOutOfMemoryError -XX:+CrashOnOutOfMemoryError -XX:ErrorFile=/usr/lib/unifi/logs/hs_err_pid%p.log -jar /usr/lib/unifi/lib/ace.jar start
+rtkit     1943  0.0  0.0 183544  3048 ?        SNsl Oct08   0:02 /usr/lib/rtkit/rtkit-daemon
+root      1955  0.0  0.0 347232  9988 ?        Ssl  Oct08   0:00 /usr/lib/upower/upowerd
+colord    1983  0.0  0.0 301204 11300 ?        Ssl  Oct08   0:00 /usr/lib/colord/colord
+nobody    1997  0.0  0.0  52868  4100 ?        S    Oct08   0:02 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+unifi     2216  0.6  6.4 2323932 2121564 ?     Sl   Oct08  27:53 bin/mongod --dbpath /usr/lib/unifi/data/db --port 27117 --unixSocketPrefix /usr/lib/unifi/run --logappend --logpath /usr/lib/unifi/logs/mongod.log --bind_ip 127.0.0.1
+whoopsie  2254  0.0  0.0 373992 14484 ?        Ssl  Oct08   0:00 /usr/bin/whoopsie -f
+root      2285  0.0  0.0      0     0 ?        S<   Oct08   0:00 [nfsiod]
+root      2306  0.0  0.0  15940  1816 tty1     Ss+  Oct08   0:00 /sbin/agetty --noclear tty1 linux
+statd     2320  0.0  0.0  35368  2984 ?        Ss   Oct08   0:00 /sbin/rpc.statd --no-notify
+root      2322  0.0  0.0      0     0 ?        S    Oct08   0:02 [kworker/11:2]
+root      2323  0.0  0.0  47624  3500 ?        Ss   Oct08   0:00 /sbin/rpcbind -f -w
+root      2330  0.0  0.0      0     0 ?        S    Oct08   0:00 [lockd]
+root      2349  0.0  0.0 240008  5932 ?        Ss   Oct08   0:10 /usr/sbin/nmbd -D
+root      2366  0.0  0.0 337876 15832 ?        Ss   Oct08   0:28 /usr/sbin/smbd -D
+root      2368  0.0  0.0 329904  5664 ?        S    Oct08   0:00 /usr/sbin/smbd -D
+root      2371  0.0  0.0 337884  7300 ?        S    Oct08   0:00 /usr/sbin/smbd -D
+paolo.m+  2889  0.0  0.1 667012 43312 ?        Sl   13:13   0:00 /home/paolo.magnani/.vscode-server/bin/9df03c6d6ce97c6645c5846f6dfa2a6a7d276515/node /home/paolo.magnani/.vscode-server/extensions/ms-python.python-2019.10.41019/out/client/debugger/debugAdapter/main.js
+paolo.m+  4921  0.0  0.1 667012 43280 ?        Sl   13:14   0:00 /home/paolo.magnani/.vscode-server/bin/9df03c6d6ce97c6645c5846f6dfa2a6a7d276515/node /home/paolo.magnani/.vscode-server/extensions/ms-python.python-2019.10.41019/out/client/debugger/debugAdapter/main.js
+root      6039  0.0  0.0  65512  6168 ?        Ss   16:43   0:00 sshd: eth-user [priv]
+eth-user  6119  0.0  0.0  65652  3116 ?        S    16:43   0:00 sshd: eth-user@notty
+eth-user  6142  0.0  0.0  12880  2108 ?        Ss   16:43   0:00 /usr/lib/openssh/sftp-server
+root      6187  0.0  0.0      0     0 ?        S    Oct10   0:00 [kworker/2:0]
+paolo.m+  6702  0.0  0.1 667012 45496 ?        Sl   13:14   0:00 /home/paolo.magnani/.vscode-server/bin/9df03c6d6ce97c6645c5846f6dfa2a6a7d276515/node /home/paolo.magnani/.vscode-server/extensions/ms-python.python-2019.10.41019/out/client/debugger/debugAdapter/main.js
+root      6856  0.0  0.0      0     0 ?        S    Oct09   0:00 [kworker/5:1]
+root      8094  0.0  0.0      0     0 ?        S    18:53   0:01 [kworker/u24:2]
+root      9861  0.0  0.0      0     0 ?        S    Oct09   0:01 [kworker/8:0]
+root     11124  0.0  0.0  93280  7740 ?        Ss   07:35   0:00 /usr/sbin/cupsd -l
+root     11128  0.0  0.0 274816  9848 ?        Ssl  07:35   0:00 /usr/sbin/cups-browsed
+root     11134  0.0  0.0      0     0 ?        S    07:35   0:00 [kworker/8:1]
+root     11379  0.0  0.0      0     0 ?        S    Oct09   0:02 [kworker/5:0]
+root     11449  0.0  0.0      0     0 ?        S    16:53   0:01 [kworker/7:0]
+root     12653  0.0  0.0      0     0 ?        S    19:07   0:00 [kworker/u24:7]
+root     12655  0.0  0.0      0     0 ?        S    19:07   0:00 [kworker/u24:11]
+root     13183  0.0  0.0  65512  6100 ?        Ss   15:49   0:00 sshd: eth-user [priv]
+eth-user 13653 82.3  6.2 5738148 2054620 ?     Rl   02:21 847:24 python src/generate_unconditional_samples_RL.py --top_k 50 --nsamples 200 --seed 21 --model_name 117M_rap66k
+root     14468  0.6  0.0      0     0 ?        S    17:52   0:39 [kworker/6:0]
+root     14637  0.0  0.0      0     0 ?        S    Oct10   0:01 [kworker/1:2]
+paolo.m+ 14826  0.0  0.1 667012 43324 ?        Sl   13:17   0:00 /home/paolo.magnani/.vscode-server/bin/9df03c6d6ce97c6645c5846f6dfa2a6a7d276515/node /home/paolo.magnani/.vscode-server/extensions/ms-python.python-2019.10.41019/out/client/debugger/debugAdapter/main.js
+root     14846  0.0  0.0      0     0 ?        S    15:30   0:00 [kworker/0:0]
+eth-user 14958  0.0  0.0  24276  2716 ?        Ss   Oct09   0:00 SCREEN -S jupyter-lab
+eth-user 14959  0.0  0.0  20160  5312 pts/11   Ss   Oct09   0:00 /bin/bash
+eth-user 15024  0.0  0.2 327340 76888 pts/11   Sl+  Oct09   0:15 /opt/anaconda3/bin/python /opt/anaconda3/bin/jupyter-lab --ip=0.0.0.0 --certfile=../mycert.pem --keyfile=../mykey.key
+root     15258  0.0  0.0      0     0 ?        S    Oct10   0:01 [kworker/9:1]
+root     15307  0.0  0.0      0     0 ?        S    Oct10   0:02 [kworker/10:0]
+root     15566  0.0  0.0      0     0 ?        S    Oct10   0:01 [kworker/4:1]
+root     15627  0.0  0.0      0     0 ?        S    16:50   0:04 [kworker/u24:10]
+root     16009  0.0  0.0      0     0 ?        S    06:13   0:01 [kworker/1:1]
+eth-user 16123  0.0  0.0  67136  5280 ?        S    15:50   0:02 sshd: eth-user@notty
+eth-user 16135  0.0  0.0  13036  2028 ?        Ss   15:50   0:00 /usr/lib/openssh/sftp-server
+eth-user 16353  0.0  0.0  27520  2944 ?        Ss   Oct10   0:03 SCREEN -S preprocess
+eth-user 16354  0.0  0.0  23268  5668 pts/8    Ss+  Oct10   0:00 /bin/bash
+root     16618  0.1  0.0      0     0 ?        S    19:29   0:00 [kworker/6:2]
+root     17717  0.0  0.0      0     0 ?        S<   Oct09   0:03 [kworker/10:2H]
+root     17719  0.0  0.0      0     0 ?        S<   Oct09   0:00 [kworker/11:2H]
+eth-user 17810  0.0  0.0  37368  3340 pts/16   R+   19:30   0:00 ps -aux
+eth-user 17811  0.0  0.0   9660   836 pts/16   S+   19:30   0:00 less
+ubuntu   18263  0.0  0.2  94824 70304 pts/20   S+   Oct10   0:02 /opt/anaconda3/bin/python /opt/anaconda3/bin/jupyter-notebook --no-browser --allow-root --port=8885 --ip=192.168.20.113
+root     18569  0.0  0.0      0     0 ?        S    Oct09   0:02 [kworker/4:2]
+ubuntu   18774  0.0  0.0 549880 29592 ?        Ssl  13:43   0:00 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service --lockscreen-mode
+eth-user 19527  3.6  3.9 5465312 1284556 pts/16 Tl  16:57   5:31 python src/generate_unconditional_samples_RL.py --top_k 50 --nsamples 2 --seed 21 --model_name 117M_rap66k
+root     19631  0.0  0.0 232408  6920 ?        SLl  13:08   0:00 lightdm --session-child 12 21
+ubuntu   19947  0.0  0.0  45280  4768 ?        Ss   13:08   0:00 /lib/systemd/systemd --user
+ubuntu   19950  0.0  0.0 145604  2332 ?        S    13:08   0:00 (sd-pam)
+ubuntu   19958  0.0  0.0 205216 10768 ?        Sl   13:08   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ubuntu   19962  0.0  0.0  46596  4812 ?        Ss   13:08   0:00 /sbin/upstart --user
+ubuntu   20055  0.0  0.0  32864   284 ?        S    13:08   0:00 upstart-udev-bridge --daemon --user
+ubuntu   20063  0.0  0.0  43776  4336 ?        Ss   13:08   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Bk1aC3dTk1
+ubuntu   20076  0.0  0.0  86352  9140 ?        Ss   13:08   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+ubuntu   20117  0.0  0.0  32796   312 ?        S    13:08   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+ubuntu   20121  0.0  0.0  41288   392 ?        S    13:08   0:00 upstart-file-bridge --daemon --user
+ubuntu   20126  0.0  0.0  32796   324 ?        S    13:08   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+ubuntu   20127  0.0  0.0 523032 28896 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+ubuntu   20132  0.0  0.0 337996  5620 ?        Sl   13:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+ubuntu   20137  0.0  0.0  42888  3988 ?        S    13:08   0:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+ubuntu   20140  0.0  0.0 344972  6592 ?        Ssl  13:08   0:00 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+ubuntu   20142  0.0  0.0 206964  5320 ?        Sl   13:08   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ubuntu   20145  0.0  0.0 274524  6208 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfsd
+ubuntu   20154  0.0  0.0 406864  7036 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+ubuntu   20158  0.0  0.0 264260  6112 ?        Sl   13:08   0:00 /usr/lib/ibus/ibus-dconf
+ubuntu   20159  0.0  0.0 477540 29460 ?        Sl   13:08   0:00 /usr/lib/ibus/ibus-ui-gtk3
+ubuntu   20165  0.0  0.0 427840 20496 ?        Sl   13:08   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+ubuntu   20184  0.0  0.0 188392  5484 ?        Sl   13:08   0:00 /usr/lib/ibus/ibus-engine-simple
+ubuntu   20243  0.0  0.0 166540   768 ?        Ss   13:08   0:00 gpg-agent --homedir /home/ubuntu/.gnupg --use-standard-socket --daemon
+ubuntu   20302  0.0  0.1 656104 43188 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+ubuntu   20304  0.0  0.0 927988 32120 ?        Ssl  13:08   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+ubuntu   20312  0.0  0.0 632016 16952 ?        Ssl  13:08   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+ubuntu   20325  0.0  0.1 564148 34076 ?        Ssl  13:08   0:01 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+ubuntu   20357  0.0  0.0 354500  9432 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+ubuntu   20359  0.0  0.0 407116  4572 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+ubuntu   20362  0.0  0.0 569336 11236 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+ubuntu   20364  0.0  0.0 1233864 17476 ?       Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+ubuntu   20368  0.0  0.0 714580 29120 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+ubuntu   20372  0.0  0.0 663268 10700 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+ubuntu   20373  0.0  0.0 547528 25496 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+ubuntu   20374  0.0  0.0 887340  8600 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+ubuntu   20403  0.0  0.0 403148 13036 ?        Ssl  13:08   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+ubuntu   20417  0.0  0.0 1111820 25408 ?       Sl   13:08   0:00 /usr/lib/evolution/evolution-source-registry
+ubuntu   20422  0.0  0.0 178660  4876 ?        Sl   13:08   0:00 /usr/lib/dconf/dconf-service
+ubuntu   20445  0.0  0.0 582860 11756 ?        S<l  13:08   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ubuntu   20460  0.4  0.7 1690268 234800 ?      Ssl  13:08   1:50 compiz
+ubuntu   20485  0.0  0.1 863136 62152 ?        Sl   13:08   0:00 /usr/lib/evolution/evolution-calendar-factory
+ubuntu   20501  0.0  0.1 881656 51712 ?        Sl   13:08   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx20485x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/20485/2
+ubuntu   20515  0.0  0.0 690568 18036 ?        Sl   13:08   0:00 /usr/lib/evolution/evolution-addressbook-factory
+ubuntu   20517  0.0  0.1 865904 53840 ?        Sl   13:08   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx20485x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/20485/3
+ubuntu   20526  0.0  0.0 905328 20516 ?        Sl   13:08   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx20515x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/20515/2
+ubuntu   20567  0.0  0.0 285452  9688 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root     20570  0.0  0.0 432404  7732 ?        Ssl  13:08   0:03 /usr/lib/udisks2/udisksd --no-debug
+ubuntu   20583  0.0  0.0 259648  5020 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+ubuntu   20590  0.0  0.0 403608  9012 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ubuntu   20596  0.0  0.0 257536  5008 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+ubuntu   20601  0.0  0.0 271844  5564 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ubuntu   20622  0.0  0.1 1330096 60088 ?       Sl   13:08   0:00 /usr/bin/nautilus --gapplication-service
+ubuntu   20627  0.0  0.0 350552  6292 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
+ubuntu   20670  0.0  0.0 186016  5276 ?        Sl   13:08   0:00 /usr/lib/gvfs/gvfsd-metadata
+ubuntu   20823  0.0  0.1 663748 34484 ?        Sl   13:08   0:00 nm-applet
+ubuntu   20827  0.0  0.0 576836 22816 ?        Sl   13:08   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+ubuntu   20830  0.0  0.1 637296 34416 ?        Sl   13:08   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ubuntu   20834  0.0  0.2 823400 88488 ?        SLl  13:08   0:01 /usr/bin/gnome-software --gapplication-service
+root     20853  0.0  0.0      0     0 ?        S    13:08   0:00 [kworker/10:1]
+root     20911  0.0  0.1 504888 34196 ?        Ssl  13:08   0:01 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root     21053  0.0  0.0      0     0 ?        S    17:36   0:03 [kworker/u24:13]
+eth-user 21153  0.0  0.0  27516  3000 ?        Ss   Oct09   0:00 SCREEN -S inference
+eth-user 21154  0.0  0.0  23268  5572 pts/10   Ss+  Oct09   0:00 /bin/bash
+root     21527  0.0  0.0      0     0 ?        S    13:08   0:00 [kworker/9:2]
+root     21528  0.0  0.0      0     0 ?        S    13:08   0:00 [kworker/3:2]
+eth-user 21626  0.0  0.0  27520  2992 ?        Ss   Oct09   0:00 SCREEN -S drop_nopretrain
+eth-user 21627  0.0  0.0  23264  5436 pts/12   Ss+  Oct09   0:00 /bin/bash
+ubuntu   21946  0.0  0.0 583840 18108 ?        Sl   13:08   0:00 zeitgeist-datahub
+ubuntu   21954  0.0  0.0   4504   712 ?        S    13:08   0:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+ubuntu   21959  0.0  0.0 410392  9132 ?        Sl   13:08   0:00 /usr/bin/zeitgeist-daemon
+ubuntu   21967  0.0  0.0 312728 15036 ?        Sl   13:08   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+ubuntu   23838  0.0  0.0 524180 26172 ?        Sl   13:09   0:00 update-notifier
+ubuntu   24056  0.0  0.4 720656 137100 ?       SNl  13:09   0:18 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+root     24133  0.0  0.0      0     0 ?        S    18:28   0:01 [kworker/u24:1]
+ubuntu   24911  0.0  0.0  27332  2856 ?        Ss   Oct10   0:00 SCREEN -S jupyter-notebook
+ubuntu   24912  0.0  0.0  22924  5720 pts/20   Ss   Oct10   0:00 /bin/bash
+root     25822  0.0  0.0      0     0 ?        S    Oct10   0:01 [kworker/2:2]
+root     26994  0.0  0.0      0     0 ?        S    19:20   0:00 [kworker/u24:0]
+eth-user 27072  0.0  0.0    480     4 pts/16   T    16:58   0:00 sh -c espeak -xq -ven-us -f temp_lyrics.txt > temp_transcription.txt
+root     27277  0.0  0.0  65512  6348 ?        Ss   16:47   0:00 sshd: eth-user [priv]
+eth-user 27641  0.0  0.0  65512  3208 ?        S    16:47   0:02 sshd: eth-user@pts/16
+eth-user 27658  0.0  0.0  23132  5856 pts/16   Ss   16:47   0:00 -bash
+ubuntu   27696  0.0  0.0 435448  9000 ?        Sl   13:10   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root     29784  0.0  0.0      0     0 ?        S    18:42   0:00 [kworker/3:0]
+root     30164  0.0  0.0      0     0 ?        S    19:02   0:00 [kworker/u24:4]
+ubuntu   31490  0.0  0.0 644808 18592 ?        Sl   13:37   0:00 /usr/lib/x86_64-linux-gnu/unity-scope-home/unity-scope-home
+ubuntu   31509  0.0  0.0 647764 24408 ?        Sl   13:37   0:00 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+ubuntu   31511  0.0  0.0 712568 17312 ?        Sl   13:37   0:00 /usr/lib/x86_64-linux-gnu/unity-lens-files/unity-files-daemon
+ubuntu   31779  0.0  0.1 660120 35896 ?        Sl   13:37   0:00 /usr/lib/gnome-terminal/gnome-terminal-server
+ubuntu   31795  0.0  0.0  22972  5724 pts/6    Ss   13:37   0:00 bash
+root     31827  5.9  0.0      0     0 ?        S    18:22   4:02 [kworker/6:1]
+root     32117  0.0  0.0      0     0 ?        S    19:20   0:00 [kworker/7:1]
+eth-user 32248  0.0  0.0  23228  5364 pts/9    Ss+  Oct10   0:00 /bin/bash
+root     32340  0.0  0.0  54800  3984 pts/6    S+   13:38   0:00 sudo service unifi status
+root     32341  0.0  0.0  26172  3360 pts/6    S+   13:38   0:00 systemctl status unifi.service
+root     32345  0.0  0.0   9660   788 pts/6    S+   13:38   0:00 pager
+eth-user 32517  0.0  0.0  23236  5532 pts/13   Ss+  Oct10   0:00 /bin/bash
