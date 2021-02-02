@@ -17,6 +17,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     wget \
     gpg
 
+RUN pip install --upgrade pip
+
 # pip config
 RUN mkdir ~/.pip/ && \
     touch ~/.pip/pip.conf && \
@@ -39,6 +41,12 @@ RUN pip install neuron-cc[tensorflow] && \
     pip install torch && \
     pip install torchvision==0.4.0 && \
     pip install torch-neuron
+
+# app requirements
+COPY src/requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+RUN apt-get update && apt-get install -y \
+    libsndfile1
 
 # Kubeflow config
 # jupyter
