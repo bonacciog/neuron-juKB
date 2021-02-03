@@ -8,7 +8,7 @@ FROM python:3.7.4-slim-buster
 
 LABEL maintainer Loreto Parisi loreto@musixmatch.com
 
-WORKDIR app
+WORKDIR /home/jovyan/app
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
